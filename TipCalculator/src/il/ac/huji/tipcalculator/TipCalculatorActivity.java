@@ -51,10 +51,10 @@ public class TipCalculatorActivity extends Activity {
             		_bill=Double.parseDouble(temp);
             	}
             	if (_round){
-            	   tv.setText("$"+(int)Math.round(TIP_PERCENT*_bill));
+            	   tv.setText("Tip: $"+(int)Math.round(TIP_PERCENT*_bill));
                }
                else {
-            	   tv.setText("$"+String.format("%.2f", TIP_PERCENT*_bill));
+            	   tv.setText("Tip: $"+String.format("%.2f", TIP_PERCENT*_bill));
                }
             }
           });

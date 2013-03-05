@@ -49,22 +49,12 @@
     </EditText>
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/chkRound"
-        android:layout_below="@+id/btnCalculate"
-        android:layout_marginTop="38dp"
-        android:text="Tip:"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
-
-    <TextView
         android:id="@+id/txtTipResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView2"
-        android:layout_alignBottom="@+id/textView2"
-        android:layout_alignRight="@+id/btnCalculate"
+        android:layout_alignLeft="@+id/btnCalculate"
+        android:layout_below="@+id/btnCalculate"
+        android:layout_marginTop="38dp"
         android:text=""
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
